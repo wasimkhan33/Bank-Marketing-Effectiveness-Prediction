@@ -46,9 +46,13 @@ Completed capstone project 3 on Bank Marketing Effectiveness Prediction using a 
 
 Also, we found that the Target variable in our dataset is highly imbalanced, so we had used the random oversampling technique. It duplicates the existing data points of minority class and equalizes the ratio of majority and minority class. Then we had done modelling using the ML classification model. 
 Among the three classification approach used to model the data, we found that Accuracy and AUC ROC score is high for almost all models whether it is for balanced or Imbalance dataset.
+
 •	Random Forest with balance dataset contain high AUC ROC score.
+
 •	Random Forest and Knn with Imbalance set both contain high Accuracy.
+
 •	But for fair model performance among all balance and Imbalance datasets, we decided the best model using F1 Score here also Random Forest in balance dataset is the best model.
+
 •	And also when we talk about only Balance data set comparison, Random Forest is the best model in all Evaluation metrics.
 
 ## Proposed solutions for the Next Marketing Campaign :
